@@ -2,13 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>a tag</title>
+<link rel="stylesheet" href="../style.css">
+    <title>A tag</title>
 </head>
 <body>
-    <p><a href="http://www.google.com" target="_blank" accesskey="s">Ссылка с сочетанием клавиш</a></p>
+    <p><a href="http://www.google.com" target="_blank" accesskey="s" name="top" tabindex="1">Ссылка с сочетанием клавиш</a></p>
     
-    <p><a href="images/sea.jpg" download>Ссылка на скачивание файла</a></p>
+    <p><a href="../images/sea.jpg" download tabindex="2">Ссылка на скачивание файла</a></p>
+
+    <p><a href="http://baidu.cn" hreflang="en" target="_blank" tabindex="4">Ссылка с указанием языка</a></p>
+
+    <p><a href="#top" tabindex="3">Ссылка на якорь внутри страницы</a></p>
+
+    <p><a href="http://www.google.com" rel="nofollow noopener noreferrer" target="_blank" tabindex="6">Ссылка с атрибутом <i>rel</i> котоый задает связь между текущим документом и документом на который ведет ссылка</a></p>
+
+    <p><a href="#" tabindex="-1">Ссылка с указанием аттрибута <i>tabindex</i> <small>установлено отрицательное значение, элемент выбран не будет</small></a></p>
+
+    <p><a href="#" title="Поясняющий текст">Ссылка с поясняющим текстом</a></p>
+    <p><a href="http://youtube.com" type="video/mp4">Ссылка с использованием MIME-типа</a></p>
 
     <p><a href="../index.html">Назад</a></p>
+
+    
 </body>
 </html>
