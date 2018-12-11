@@ -13,3 +13,8 @@ a[type="video/mp4"]{
     background: url("../All-tags/images/YouTube_icon.png") no-repeat 0 2px;
     padding-left: 20px;
 }
+
+aside{
+    display: block;
+    width: 15px;
+}
