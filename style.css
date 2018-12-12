@@ -4,9 +4,23 @@ body{
 }
 
 .grid-a {
+    /*
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
+    grid-gap: 10px; */
+    column-count: 4;
+    column-width: 120px;
+    margin-left: 0;
+}
+
+.grid-b {
+    /*
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px; */
+    column-count: 4;
+    column-width: 120px;
+    margin-left: 0;
 }
 
 a[type="video/mp4"]{
@@ -17,4 +31,8 @@ a[type="video/mp4"]{
 aside{
     display: block;
     width: 15px;
+}
+
+.rtl{
+    margin-right: 15px;
 }
