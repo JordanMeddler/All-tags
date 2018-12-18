@@ -36,3 +36,14 @@ aside{
 .rtl{
     margin-right: 15px;
 }
+
+
+div {
+    border-radius: 50%;
+}
+.egg {
+    background-color:orange;
+    border-radius: 
+        100px 100px 100px 100px /
+        200px 200px 100px 100px;
+}
